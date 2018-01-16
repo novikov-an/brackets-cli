@@ -1,0 +1,11 @@
+#! /usr/bin/env php
+<?php
+
+use ConsoleApp\checkCommand;
+use Symfony\Component\Console\Application;
+
+require_once 'vendor/autoload.php';
+
+$app = new Application('Brackets checker', '1.0');
+$app->add(new checkCommand());
+$app->run();

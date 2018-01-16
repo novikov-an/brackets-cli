@@ -1,0 +1,11 @@
+{
+  "require": {
+    "alexnovikov/brackets": "dev-master",
+    "symfony/console": "^3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ConsoleApp\\": "src/"
+    }
+  }
+}
