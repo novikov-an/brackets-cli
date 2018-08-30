@@ -5,6 +5,4 @@ Brackets checker CLI
 
 To use CLI, use from the root folder next command:
 
-```
-./brackets check "brakets string here"
-```
+``` ./brackets check "brakets string here" ```
